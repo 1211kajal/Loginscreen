@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_image"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/architects_daughter"
+        android:text="W-Aggregator"
+        android:textColor="@color/green"
+        android:textSize="60sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="Name"
+        android:padding="8dp"
+        android:textColor="@color/pink"
+        android:textColorHighlight="@color/cardview_dark_background" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="User Name"
+        android:padding="8dp"
+        android:textColor="@color/pink" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="Address"
+        android:padding="8dp"
+        android:textColor="@color/pink"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/area"
+        android:layout_width="411dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="Area"
+        android:padding="8dp"
+        android:textColor="@color/pink" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="@color/pink" />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edittext"
+        android:ems="10"
+        android:inputType="phone"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="Phone"
+        android:padding="8dp"
+        android:textColor="@color/pink"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Submit"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="111dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Back"
+        android:textColor="@color/green"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+
+
+
+
+</LinearLayout>
